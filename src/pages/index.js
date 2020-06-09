@@ -9,24 +9,32 @@ import SEO from "../components/seo"
 
 import Page from '../components/page';
 
+import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
+
 const IndexPage = () => {
   const divStyle = {
     background: 'linear-gradient(141deg, #d32f2f 0%, #bb2f2f 51%, #922f2f 75%)',
     maxWidth: '400',
   };
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "black-dinosaur-logo-clip-art-png-clip-art.png" }) {
-        childImageSharp {
-          # Specify a fluid image and fragment
-          # The default maxWidth is 800 pixels
-          fluid(maxWidth: 400) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     file(relativePath: { eq: "black-dinosaur-logo-clip-art-png-clip-art.png" }) {
+  //       childImageSharp {
+  //         # Specify a fluid image and fragment
+  //         # The default maxWidth is 800 pixels
+  //         fixed(
+  //           width: 800,
+  //           # duotone: {
+  //           #   highlight: "#f00e2e",
+  //           #   shadow: "#192550"
+  //           # }
+  //         ) {
+  //           ...GatsbyImageSharpFixed
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
   return (
     <div style={divStyle}>
       {/* <SEO title="Home" />
@@ -39,12 +47,13 @@ const IndexPage = () => {
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Page>
-        <div style={divStyle}>
-          <Img
-            fluid={data.file.childImageSharp.fluid}
+        {/* <div style={divStyle}> */}
+          {/* <Img
+            fixed={data.file.childImageSharp.fixed}
             alt="Gatsby Docs are awesome"
-          />
-        </div>
+          /> */}
+          <img src={Logo} />
+        {/* </div> */}
       </Page>
       {/* <Page>Apatosaurus</Page>
       <Page>Brontosaurus</Page>
