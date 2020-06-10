@@ -8,7 +8,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Page from '../components/page';
-
+import styles from './index.module.css';
 import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
 
 const IndexPage = () => {
@@ -52,7 +52,7 @@ const IndexPage = () => {
             fixed={data.file.childImageSharp.fixed}
             alt="Gatsby Docs are awesome"
           /> */}
-          <img src={Logo} />
+          <img src={Logo} className={styles.logo} alt=""/>
         {/* </div> */}
       </Page>
       {/* <Page>Apatosaurus</Page>
