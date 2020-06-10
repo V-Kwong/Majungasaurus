@@ -52,7 +52,10 @@ const IndexPage = () => {
             fixed={data.file.childImageSharp.fixed}
             alt="Gatsby Docs are awesome"
           /> */}
-          <img src={Logo} className={styles.logo} alt=""/>
+          <div style={{ marginBottom: '10vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            <img src={Logo} className={styles.logo} alt=""/>
+            <h1>Majungasaurus</h1>
+          </div>
         {/* </div> */}
       </Page>
       {/* <Page>Apatosaurus</Page>
