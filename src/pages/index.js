@@ -58,7 +58,7 @@ const IndexPage = () => {
             justifyContent: 'flex-end' 
           }}>
             <img src={Logo} className={styles.logo} alt=""/>
-            <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Emergence</h1>
+            <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Majungasaurus</h1>
           </div>
           <div style={{
             height: '35vh',
@@ -69,7 +69,7 @@ const IndexPage = () => {
             flexDirection: 'column',
             alignItems: 'center',
           }}>
-            <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Greatness</span></p>
+            <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Natural Selection</span></p>
             <div
               style={{
                 flex: 1,
