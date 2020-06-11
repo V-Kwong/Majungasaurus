@@ -47,16 +47,38 @@ const IndexPage = () => {
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Page>
-        {/* <div style={divStyle}> */}
-          {/* <Img
-            fixed={data.file.childImageSharp.fixed}
-            alt="Gatsby Docs are awesome"
-          /> */}
-          <div style={{ marginBottom: '10vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{
+            height: '65vh',
+            width: '100vw',
+            backgroundColor: '#654311',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'flex-end' 
+          }}>
             <img src={Logo} className={styles.logo} alt=""/>
-            <h1>Majungasaurus</h1>
+            <h1 style={{ fontSize: '2em' }}>Majungasaurus</h1>
           </div>
-        {/* </div> */}
+          <div style={{
+            height: '35vh',
+            width: '100vw',
+            paddingTop: '5vh',
+            backgroundColor: '#123456',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+          }}>
+            <h1 style={{ fontSize: '2em' }}>Wakanda Forever</h1>
+            <div
+              style={{
+                flex: 1,
+                width: '1px',
+                marginTop: '1em',
+                marginBottom: '1em',
+                background: 'white none repeat scroll 0% 0%',
+              }}
+            />
+          </div>
       </Page>
       {/* <Page>Apatosaurus</Page>
       <Page>Brontosaurus</Page>
