@@ -50,32 +50,32 @@ const IndexPage = () => {
           <div style={{
             height: '65vh',
             width: '100vw',
-            backgroundColor: '#654311',
+            // backgroundColor: '#654311',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'flex-end' 
           }}>
             <img src={Logo} className={styles.logo} alt=""/>
-            <h1 style={{ fontSize: '2em' }}>Majungasaurus</h1>
+            <h1 style={{ color: 'white' }}>Emergence</h1>
           </div>
           <div style={{
             height: '35vh',
             width: '100vw',
-            paddingTop: '5vh',
-            backgroundColor: '#123456',
+            paddingTop: '15vh',
+            // backgroundColor: '#123456',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
           }}>
-            <h1 style={{ fontSize: '2em' }}>Wakanda Forever</h1>
+            <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Greatness</span></p>
             <div
               style={{
                 flex: 1,
                 width: '1px',
-                marginTop: '1em',
+                marginTop: '0.75em',
                 marginBottom: '1em',
-                background: 'white none repeat scroll 0% 0%',
+                background: '#ffe001 none repeat scroll 0% 0%',
               }}
             />
           </div>
