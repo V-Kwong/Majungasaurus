@@ -13,6 +13,7 @@ import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
 
 const IndexPage = () => {
   const divStyle = {
+    fontFamily: 'Oxygen',
     background: 'linear-gradient(141deg, #d32f2f 0%, #bb2f2f 51%, #922f2f 75%)',
     maxWidth: '400',
   };
@@ -57,7 +58,7 @@ const IndexPage = () => {
             justifyContent: 'flex-end' 
           }}>
             <img src={Logo} className={styles.logo} alt=""/>
-            <h1 style={{ color: 'white' }}>Emergence</h1>
+            <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Emergence</h1>
           </div>
           <div style={{
             height: '35vh',
