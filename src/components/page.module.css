@@ -13,4 +13,13 @@
 
   /* background: linear-gradient(141deg, #d32f2f 0%, #bb2f2f 51%, #922f2f 75%); */
   background-color: #212121;
+
+  /* background: rgb(33,33,33);
+  background: radial-gradient(circle, rgba(33,33,33,1) 0%, rgba(42,41,36,1) 100%);  */
+
+  background-color: black;
+/* 
+  background-image: radial-gradient(circle, #000000, #0c0c0c, #141414, #1b1b1b, #212121);
+
+  background-image: radial-gradient(circle, #212121, #1b1b1b, #141414, #0c0c0c, #000000); */
 }
