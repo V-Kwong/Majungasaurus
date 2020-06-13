@@ -13,9 +13,9 @@ import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
 
 const IndexPage = () => {
   const divStyle = {
-    fontFamily: 'Oxygen',
-    background: 'linear-gradient(141deg, #d32f2f 0%, #bb2f2f 51%, #922f2f 75%)',
-    maxWidth: '400',
+    // fontFamily: 'Oxygen',
+    // background: 'linear-gradient(141deg, #d32f2f 0%, #bb2f2f 51%, #922f2f 75%)',
+    // maxWidth: '400',
   };
   // const data = useStaticQuery(graphql`
   //   query {
@@ -49,8 +49,10 @@ const IndexPage = () => {
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Page>
           <div style={{
-            height: '65%',
-            width: '100%',
+            height: '65vh',
+            width: '100vw',
+            maxHeight: '65%',
+            maxWidth: '100%',
             // backgroundColor: '#654311',
             display: 'flex',
             flexDirection: 'column',
@@ -61,13 +63,16 @@ const IndexPage = () => {
             <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Majungasaurus</h1>
           </div>
           <div style={{
-            height: '35%',
-            width: '100%',
+            height: '35vh',
+            width: '100vw',
+            maxHeight: '35%',
+            maxWidth: '100%',
             paddingTop: '15vh',
             // backgroundColor: '#123456',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
+            fontFamily: 'Oxygen',
           }}>
             <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Natural Selection</span></p>
             <div
