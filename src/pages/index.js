@@ -49,20 +49,20 @@ const IndexPage = () => {
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Page>
           <div style={{
-            height: '65vh',
-            width: '100vw',
+            height: '65%',
+            width: '100%',
             // backgroundColor: '#654311',
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'flex-end' 
+            justifyContent: 'flex-end',
           }}>
             <img src={Logo} className={styles.logo} alt=""/>
             <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Majungasaurus</h1>
           </div>
           <div style={{
-            height: '35vh',
-            width: '100vw',
+            height: '35%',
+            width: '100%',
             paddingTop: '15vh',
             // backgroundColor: '#123456',
             display: 'flex',
