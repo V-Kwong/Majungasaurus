@@ -86,10 +86,18 @@ const IndexPage = () => {
             />
           </div>
       </Page>
-      {/* <Page>Apatosaurus</Page>
-      <Page>Brontosaurus</Page>
-      <Page>Brachiosaurus</Page>
-      <Page>Allosaurus</Page> */}
+      <Page>
+        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Apatosaurus</h1>
+      </Page>
+      <Page>
+        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Brontosaurus</h1>
+      </Page>
+      <Page>
+        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Brachiosaurus</h1>
+      </Page>
+      <Page>
+        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Allosaurus</h1>
+      </Page>
     </div>
   )
 }
