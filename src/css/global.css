@@ -3,6 +3,8 @@ body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  font-size: calc(14px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.2em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
   /* box-sizing: border-box; */
 }
 
@@ -14,3 +16,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* h1 {
+  font-size: 1rem;
+} */
