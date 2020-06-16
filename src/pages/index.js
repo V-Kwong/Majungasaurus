@@ -7,8 +7,9 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-import Page from '../components/page';
 import styles from './index.module.css';
+import Page from '../components/page';
+import Main from '../screens/main';
 import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
 
 const IndexPage = () => {
@@ -48,42 +49,7 @@ const IndexPage = () => {
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Page>
-          <div style={{
-            height: '65vh',
-            width: '100vw',
-            maxHeight: '65%',
-            maxWidth: '100%',
-            // backgroundColor: '#654311',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'flex-end',
-          }}>
-            <img src={Logo} className={styles.logo} alt=""/>
-            <h1 style={{ color: 'white' }}>Majungasaurus</h1>
-          </div>
-          <div style={{
-            height: '35vh',
-            width: '100vw',
-            maxHeight: '35%',
-            maxWidth: '100%',
-            paddingTop: '15vh',
-            // backgroundColor: '#123456',
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-          }}>
-            <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Natural Selection</span></p>
-            <div
-              style={{
-                flex: 1,
-                width: '1px',
-                marginTop: '0.75em',
-                marginBottom: '1em',
-                background: '#ffe001 none repeat scroll 0% 0%',
-              }}
-            />
-          </div>
+        <Main />
       </Page>
       <Page>
         <h1 style={{ color: 'white' }}>Apatosaurus</h1>
@@ -106,7 +72,7 @@ const IndexPage = () => {
           paddingLeft: '2.5vw',
           paddingRight: '2.5vw',
           paddingBottom: '5vh',
-          // backgroundColor: '#654311',
+          backgroundColor: '#654311',
           // display: 'flex',
           // flexDirection: 'column',
           // alignItems: 'center',
