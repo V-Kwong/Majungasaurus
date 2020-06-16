@@ -60,7 +60,7 @@ const IndexPage = () => {
             justifyContent: 'flex-end',
           }}>
             <img src={Logo} className={styles.logo} alt=""/>
-            <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Majungasaurus</h1>
+            <h1 style={{ color: 'white' }}>Majungasaurus</h1>
           </div>
           <div style={{
             height: '35vh',
@@ -72,7 +72,6 @@ const IndexPage = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            fontFamily: 'Oxygen',
           }}>
             <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>Challenge <span style={{ marginBottom: 0, color: '#ffe001' }}>Natural Selection</span></p>
             <div
@@ -87,16 +86,43 @@ const IndexPage = () => {
           </div>
       </Page>
       <Page>
-        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Apatosaurus</h1>
+        <h1 style={{ color: 'white' }}>Apatosaurus</h1>
       </Page>
       <Page>
-        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Brontosaurus</h1>
+        <h1 style={{ color: 'white' }}>Brontosaurus</h1>
       </Page>
       <Page>
-        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Brachiosaurus</h1>
+        <h1 style={{ color: 'white' }}>Brachiosaurus</h1>
       </Page>
       <Page>
-        <h1 style={{ fontFamily: 'Oxygen', color: 'white' }}>Allosaurus</h1>
+        <div style={{
+          marginTop: '15vh',
+          marginLeft: '5vw',
+          marginRight: '15vw',
+          marginBottom: '10vh',
+          height: '75vh',
+          width: '80vw',
+          paddingTop: '5vh',
+          paddingLeft: '2.5vw',
+          paddingRight: '2.5vw',
+          paddingBottom: '5vh',
+          // backgroundColor: '#654311',
+          // display: 'flex',
+          // flexDirection: 'column',
+          // alignItems: 'center',
+          // justifyContent: 'flex-end',
+        }}>
+          <h1 style={{ color: 'white' }}>Allosaurus</h1>
+          <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>
+            Allosaurus (/ˌæləˈsɔːrəs/[2][3]) is a genus of carnivorous theropod dinosaur that lived 155 to 145 million years ago during the late Jurassic period (Kimmeridgian to late Tithonian[4]). The name "Allosaurus" means "different lizard" alluding to its unique concave vertebrae (at the time of its discovery). It is derived from the Greek ἄλλος (allos) ("different, other") and σαῦρος (sauros) ("lizard / generic reptile"). 
+          </p>
+          <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>
+            The first fossil remains that could definitively be ascribed to this genus were described in 1877 by paleontologist Othniel Charles Marsh. As one of the first well-known theropod dinosaurs, it has long attracted attention outside of paleontological circles. 
+          </p>
+          <p style={{ marginBottom: 0, color: 'white', lineHeight: 2 }}>
+            Allosaurus was a large bipedal predator. Its skull was large and equipped with dozens of sharp, serrated teeth.
+          </p>
+        </div>
       </Page>
     </div>
   )
