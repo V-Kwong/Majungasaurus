@@ -1,10 +1,13 @@
+* {
+  font-family: Oxygen !important;
+  box-sizing: border-box;
+}
+
 body, html {
   font-family: 'Oxygen';
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: calc(14px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.2em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
   /* box-sizing: border-box; */
 }
 
@@ -13,11 +16,13 @@ body {
   width: 100vw; */
 }
 
-* {
-  font-family: Oxygen !important;
-  box-sizing: border-box;
+h1 {
+  /* font-size: calc(28px + (36 - 28) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.2 + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));  */
+  font-size: 2em;
 }
 
-/* h1 {
-  font-size: 1rem;
-} */
+p {
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.2 + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); 
+}
