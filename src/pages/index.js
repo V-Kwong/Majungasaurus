@@ -11,7 +11,7 @@ import styles from './index.module.css';
 import Page from '../components/page';
 import Main from '../screens/main';
 import About from '../screens/about';
-import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
+
 
 const IndexPage = () => {
   const divStyle = {
@@ -52,7 +52,7 @@ const IndexPage = () => {
       <Page>
         <Main />
       </Page>
-      <Page>
+      {/* <Page>
         <h1 style={{ color: 'white' }}>Apatosaurus</h1>
       </Page>
       <Page>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       </Page>
       <Page>
         <h1 style={{ color: 'white' }}>Brachiosaurus</h1>
-      </Page>
+      </Page> */}
       <Page>
         <About />
       </Page>

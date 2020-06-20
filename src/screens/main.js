@@ -7,17 +7,17 @@ export default class Main extends Component {
     return (
       <div>
         <div className={styles.topContainer}>
-            <img src={Logo} className={styles.logo} alt=""/>
-            <h1 className={styles.text}>
-                Majungasaurus
-            </h1>
-          </div>
-          <div className={styles.bottomContainer}>
-            <p className={styles.slogan}>
-                Challenge <span className={styles.sloganHighlight}>Natural Selection</span>
-            </p>
-            <div className={styles.line} />
-          </div>
+          <img src={Logo} className={styles.logo} alt=""/>
+          <h1 className={styles.text}>
+            Majungasaurus
+          </h1>
+        </div>
+        <div className={styles.bottomContainer}>
+          <p className={styles.slogan}>
+            Challenge <span className={styles.sloganHighlight}>Natural Selection</span>
+          </p>
+          <div className={styles.line} />
+        </div>
       </div>
     )
   }
