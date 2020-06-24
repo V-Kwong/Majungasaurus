@@ -29,6 +29,7 @@ td {
 
 * {
   font-family: Oxygen !important;
+  color: white;
   box-sizing: border-box;
 }
 
@@ -60,7 +61,6 @@ button {
   border: none;
   margin: 0;
   padding: 0;
-  color: white;
 }
 
 ol,
