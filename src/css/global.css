@@ -54,8 +54,12 @@ p {
   line-height: calc(1.2 + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); 
 }
 
-a {
+button {
   text-decoration: none;
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 ol,
