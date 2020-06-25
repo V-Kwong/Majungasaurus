@@ -25,16 +25,23 @@
 }
 
 .aboutBtnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
   margin-top: 0.5%;
   margin-bottom: 0;
 }
 
 .overviewBtn {
-  margin-right: 5em;
+  margin-right: 12px;
+}
+
+.aboutBtnDivider {
+  font-size: 0.8em;
 }
 
 .coolFactsBtn {
-  margin-left: 5em;
+  margin-left: 12px;
 }
 
 .textLine {

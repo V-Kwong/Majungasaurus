@@ -55,7 +55,6 @@ export const HoverButton = styled.button`
       :focus {
         outline: none;
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
-        cursor: pointer;
       }
     `
   }

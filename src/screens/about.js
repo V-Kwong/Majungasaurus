@@ -40,21 +40,25 @@ export default class About extends Component {
         </div> */}
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Allosaurus</h1>
-          <p className={styles.aboutBtnContainer}>
-            <HoverButton
-              className={styles.overviewBtn}
-              active={this.state.activeButton === 'Overview'}
-              onClick={this.overviewClick}>
-                Overview
-            </HoverButton> 
-            |
-            <HoverButton 
-              className={styles.coolFactsBtn}
-              active={this.state.activeButton === 'Cool Facts'}
-              onClick={this.coolFactsClick}>
-                Cool Facts
-            </HoverButton>
-          </p>
+          <div className={styles.aboutBtnContainer}>
+            <div className={styles.overviewBtn}>
+              <HoverButton
+                active={this.state.activeButton === 'Overview'}
+                onClick={this.overviewClick}>
+                  Overview
+              </HoverButton> 
+            </div>
+            <div className={styles.aboutBtnDivider}>
+              |
+            </div>
+            <div className={styles.coolFactsBtn}>
+              <HoverButton 
+                active={this.state.activeButton === 'Cool Facts'}
+                onClick={this.coolFactsClick}>
+                  Cool Facts
+              </HoverButton>
+            </div>
+          </div>
           <p className={styles.textLine}>
             Allosaurus (/ˌæləˈsɔːrəs/[2][3]) is a genus of carnivorous theropod dinosaur that lived 155 to 145 million years ago during the late Jurassic period (Kimmeridgian to late Tithonian[4]). The name "Allosaurus" means "different lizard" alluding to its unique concave vertebrae (at the time of its discovery). It is derived from the Greek ἄλλος (allos) ("different, other") and σαῦρος (sauros) ("lizard / generic reptile"). 
           </p>

@@ -37,6 +37,7 @@
 .slogan { 
   margin-bottom: 0;
   color: white;
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 2 
 }
 
