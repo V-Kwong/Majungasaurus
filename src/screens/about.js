@@ -41,23 +41,23 @@ export default class About extends Component {
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Allosaurus</h1>
           <div className={styles.aboutBtnContainer}>
-            <div className={styles.overviewBtn}>
+            {/* <div className={styles.overviewBtn}> */}
               <HoverButton
                 active={this.state.activeButton === 'Overview'}
                 onClick={this.overviewClick}>
                   Overview
               </HoverButton> 
-            </div>
+            {/* </div> */}
             <div className={styles.aboutBtnDivider}>
               |
             </div>
-            <div className={styles.coolFactsBtn}>
+            {/* <div className={styles.coolFactsBtn}> */}
               <HoverButton 
                 active={this.state.activeButton === 'Cool Facts'}
                 onClick={this.coolFactsClick}>
                   Cool Facts
               </HoverButton>
-            </div>
+            {/* </div> */}
           </div>
           <div className={this.state.activeButton === 'Overview' ? styles.showText : styles.hideText}>
             <p className={styles.textLine}>
