@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Scrollbars } from 'react-custom-scrollbars';
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
@@ -16,7 +17,9 @@ import About from '../screens/about';
 export default class IndexPage extends Component {
   render() {
     return (
-      <div>
+      <Scrollbars 
+        style={{ width: '100vw', height: '100vh' }}
+      >
         {/* <SEO title="Home" />
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
@@ -41,7 +44,7 @@ export default class IndexPage extends Component {
         <Page>
           <About />
         </Page>
-      </div>
+      </Scrollbars>
     )
   }
 }
