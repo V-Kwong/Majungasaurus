@@ -6,9 +6,9 @@ import styles from './page.module.css';
 export default class Page extends Component {
   render() {
     return (
-      <Div100vh className={styles.container}>
+      <div className={styles.container}>
         {this.props.children}
-      </Div100vh>
+      </div>
     )
   }
 }
