@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Div100vh from 'react-div-100vh'
 import PropTypes from 'prop-types';
 import styles from './page.module.css';
 
 export default class Page extends Component {
   render() {
     return (
-      <div className={styles.container}>
+      <Div100vh className={styles.container}>
         {this.props.children}
-      </div>
+      </Div100vh>
     )
   }
 }

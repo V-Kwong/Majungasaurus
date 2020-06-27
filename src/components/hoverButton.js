@@ -13,7 +13,7 @@ export const HoverButton = styled.a`
       transform: scale(1.1);
       font-weight: bold;
       padding-bottom: 2px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     `
     :
     `
