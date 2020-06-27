@@ -1,17 +1,14 @@
 import React, { Component } from "react"
 import { Scrollbars } from 'react-custom-scrollbars';
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-import { Link } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
+// import Img from "gatsby-image"
+// import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-import styles from './index.module.css';
+// import styles from './index.module.css';
 import Page from '../components/page';
 import Main from '../screens/main';
 import About from '../screens/about';
+import Product from '../screens/product';
 
 
 export default class IndexPage extends Component {
@@ -43,6 +40,12 @@ export default class IndexPage extends Component {
         </Page> */}
         <Page>
           <About />
+        </Page>
+        <Page>
+          <Product
+            title='Apatosaurus'
+            text='Apatosaurus (/əˌpætəˈsɔːrəs/;[3][4] meaning "deceptive lizard") is a genus of herbivorous sauropod dinosaur that lived in North America during the Late Jurassic period.'
+          />
         </Page>
       </Scrollbars>
     )
