@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './product.module.css';
+import { DiscoverButton } from '../components/discoverButton';
 
 
 export default class Product extends Component {
@@ -14,6 +15,7 @@ export default class Product extends Component {
             <p className={styles.textLine}>
               {text}
             </p>
+            <DiscoverButton>Discover {title}</DiscoverButton>
           </div>
         </div>
       </div>

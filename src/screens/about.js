@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './about.module.css';
 import { HoverButton } from '../components/hoverButton';
 
+
 export default class About extends Component {
   constructor(props) {
     super(props)
