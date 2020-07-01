@@ -1,44 +1,23 @@
 import styled from 'styled-components';
 
 export const DiscoverButton = styled.a`
-  display: inline-block;
-  padding: .75rem 1.25rem;
-  border-radius: 10rem;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 1rem;
-  letter-spacing: .15rem;
-  transition: all .3s;
+  padding: 7px 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  -webkit-transition-delay: .1s;
+  transition-delay: .1s;
+  cursor: pointer;
   position: relative;
-  overflow: hidden;
-  z-index: 1;
-  &:after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #fff;
-      border-radius: 10rem;
-      z-index: -2;
-  }
-  &:before {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 0%;
-      height: 100%;
-      background-color: #ffe001;
-      transition: all .3s;
-      border-radius: 10rem;
-      z-index: -1;
-  }
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  border: 2px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+
   &:hover {
-      color: #fff;
-      &:before {
-          width: 100%;
-      }
+    // color: #000 !important;
+    background-color: transparent;
+    border: 2px solid #ffe001;
   }
 `

@@ -11,12 +11,12 @@ export default class Product extends Component {
       <div>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>{title}</h1>
-          <div>
-            <p className={styles.textLine}>
-              {text}
-            </p>
-            <DiscoverButton>Discover {title}</DiscoverButton>
-          </div>
+          <p className={styles.textLine}>
+            {text}
+          </p>
+          {/* <div className={styles.discoverContainer}> */}
+          <p><DiscoverButton>Discover {title}</DiscoverButton></p>
+          {/* </div> */}
         </div>
       </div>
     )
