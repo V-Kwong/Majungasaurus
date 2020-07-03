@@ -14,9 +14,11 @@ export default class Product extends Component {
           <p className={styles.textLine}>
             {text}
           </p>
-          {/* <div className={styles.discoverContainer}> */}
-          <p><DiscoverButton>Discover {title}</DiscoverButton></p>
-          {/* </div> */}
+          <p className={styles.discoverContainer}>
+            <DiscoverButton>
+              Discover {title}
+            </DiscoverButton>
+          </p>
         </div>
       </div>
     )
