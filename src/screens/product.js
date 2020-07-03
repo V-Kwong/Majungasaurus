@@ -9,9 +9,9 @@ export default class Product extends Component {
 
     return (
       <div>
-        <div className={styles.textContainer}>
-          <h1 className={styles.title}>{title}</h1>
-          <p className={styles.textLine}>
+        <div className="container">
+          <h1 className="title">{title}</h1>
+          <p className="textLine">
             {text}
           </p>
           <p className={styles.discoverContainer}>
