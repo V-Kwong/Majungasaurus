@@ -43,8 +43,14 @@ export default class IndexPage extends Component {
         </Page>
         <Page>
           <Product
-            title='Apatosaurus'
-            text='Apatosaurus (/əˌpætəˈsɔːrəs/;[3][4] meaning "deceptive lizard") is a genus of herbivorous sauropod dinosaur that lived in North America during the Late Jurassic period.'
+            title='Brachiosaurus'
+            text='Most Iconic and initially thought to be one of the Largest Dinosaurs.'
+          />
+        </Page>
+        <Page>
+          <Product
+            title='Edmontosaurus'
+            text='Herbivore that could move on both Two Legs and Four. Flex.'
           />
         </Page>
       </Scrollbars>
