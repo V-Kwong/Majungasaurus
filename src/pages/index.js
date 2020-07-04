@@ -9,6 +9,7 @@ import Page from '../components/page';
 import Main from '../screens/main';
 import About from '../screens/about';
 import Product from '../screens/product';
+import Contact from '../screens/contact';
 
 
 export default class IndexPage extends Component {
@@ -52,6 +53,9 @@ export default class IndexPage extends Component {
             title='Edmontosaurus'
             text='Herbivore that could move on both Two Legs and Four. Flex.'
           />
+        </Page>
+        <Page>
+          <Contact />
         </Page>
       </Scrollbars>
     )

@@ -1,0 +1,5 @@
+.emailLine {
+  /* font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300))); */
+  font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 2;
+}
