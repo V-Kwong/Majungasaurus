@@ -8,6 +8,7 @@ export const Email = styled.a`
   padding: 0;
   cursor: pointer;
   transition: all 0.5s ease;
+  margin-left: 16px;
 
   &:hover {
     opacity: 0.75;
