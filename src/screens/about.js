@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './about.module.css';
+import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
 import { HoverButton } from '../components/hoverButton';
 
 
@@ -27,38 +28,27 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <div className={styles.topContainer}>
-          <img src={Logo} className={styles.logo} alt=""/>
-          <h1 className={styles.text}>
-              Majungasaurus
-          </h1>
-          </div>
-          <div className={styles.bottomContainer}>
-          <p className={styles.slogan}>
-              Challenge <span className={styles.sloganHighlight}>Natural Selection</span>
-          </p>
-          <div className={styles.line} />
-        </div> */}
+        <div className={styles.buttonContainer}>
+          <a href="#home">
+            <img src={Logo} className={styles.logo} alt=""/>
+          </a>
+        </div>
         <div className="container">
           <h1 className="title">Allosaurus</h1>
           <div className={styles.aboutBtnContainer}>
-            {/* <div className={styles.overviewBtn}> */}
-              <HoverButton
-                active={this.state.activeButton === 'Overview'}
-                onClick={this.overviewClick}>
-                  Overview
-              </HoverButton> 
-            {/* </div> */}
+            <HoverButton
+              active={this.state.activeButton === 'Overview'}
+              onClick={this.overviewClick}>
+                Overview
+            </HoverButton> 
             <div className={styles.aboutBtnDivider}>
               |
             </div>
-            {/* <div className={styles.coolFactsBtn}> */}
-              <HoverButton 
-                active={this.state.activeButton === 'Cool Facts'}
-                onClick={this.coolFactsClick}>
-                  Cool Facts
-              </HoverButton>
-            {/* </div> */}
+            <HoverButton 
+              active={this.state.activeButton === 'Cool Facts'}
+              onClick={this.coolFactsClick}>
+                Cool Facts
+            </HoverButton>
           </div>
           <div className={this.state.activeButton === 'Overview' ? styles.showText : styles.hideText}>
             <p className="textLine">
@@ -79,7 +69,7 @@ export default class About extends Component {
             The genus has a complicated taxonomy, and includes 5-6 valid species (later whittled down to three valid species as of 2020), the best known of which is A. fragilis. The bulk of Allosaurus remains have come from North America's Morrison Formation, with material also known from Portugal. 
             </p>
             <p className={["textLine", styles.lastLine].join(' ')}>
-              As the most abundant large predator in the Morrison Formation, Allosaurus was at the top of the food chain.
+            As the most abundant large predator in the Morrison Formation, Allosaurus was at the top of the food chain.
             </p>
           </div>
         </div>

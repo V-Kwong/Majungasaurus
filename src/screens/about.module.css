@@ -1,3 +1,27 @@
+.buttonContainer {
+  position: absolute;
+  height: 20vh;
+  width: 100vw;
+  z-index: 999;
+  /* background-color: yellowgreen; */
+}
+
+.buttonContainer a {
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+.buttonContainer a:hover {
+  opacity: 0.75;
+}
+
+.logo {
+  /* margin-top: 1vh;
+  margin-left: 2vw; */
+  width: 14vh;
+  margin: 3vh 2.5vw;
+}
+
 .aboutBtnContainer {
   display: flex;
   flex-direction: row;
@@ -28,5 +52,5 @@
 .lastLine {
   font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
-  line-height: 2;
+  line-height: calc(24px + (48 - 24) * ((100vh - 600px)/(1000 - 600))); 
 }
