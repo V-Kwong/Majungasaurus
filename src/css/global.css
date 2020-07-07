@@ -47,12 +47,13 @@ body {
 }
 
 .container {
-  margin-top: 10vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 15vw;
   margin-bottom: 10vh;
-  height: 80vh;
+  height: 70vh;
   width: 80vw;
+  /* background-color: navy; */
   /* padding-top: 5px;
   padding-bottom: 5px; */
   /* padding-top: 5vh;
@@ -73,18 +74,18 @@ h1 {
 
 .title {
   color: white;
-  padding-top: 1vh;
+  padding-top: calc(0vh + (5 - 0) * ((100vh) / (1000 - 600)));;
 }
 
 p {
   font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.2 + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300))); 
+  line-height: calc(15px + (36 - 15) * ((100vh - 600px)/(1000 - 600))); 
 }
 
 .textLine {
   margin-bottom: 0;
   color: white;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 button {
