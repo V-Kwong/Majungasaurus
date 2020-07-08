@@ -54,3 +54,14 @@
   font-weight: bold;
   line-height: calc(24px + (48 - 24) * ((100vh - 600px)/(1000 - 600))); 
 }
+
+@media only screen and (max-width: 600px) {
+  .buttonContainer {
+    height: 10vh;
+  }
+
+  .logo {
+    width: 10vh;
+    margin: 1.5vh 2.5vw;
+  }
+}

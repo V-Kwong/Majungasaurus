@@ -42,7 +42,7 @@ export default class IndexPage extends Component {
         <Page>
           <About />
         </Page>
-        <Page>
+        {/* <Page>
           <Product
             title='Brachiosaurus'
             text='Most Iconic and initially thought to be one of the Largest Dinosaurs.'
@@ -56,7 +56,7 @@ export default class IndexPage extends Component {
         </Page>
         <Page>
           <Contact />
-        </Page>
+        </Page> */}
       </Scrollbars>
     )
   }
