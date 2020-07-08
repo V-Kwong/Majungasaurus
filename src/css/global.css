@@ -69,7 +69,7 @@ body {
 }
 
 h1 {
-  font-size: calc(2em + (3 - 2) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(1.75em + (3 - 1.75) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .title {
