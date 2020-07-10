@@ -57,29 +57,27 @@ export default class IndexPage extends Component {
         <Page>
           <h1 style={{ color: 'white' }}>Brachiosaurus</h1>
         </Page> */}
-        <div className={styles.container}>
-          <LogoButton onClick={this.scrollToTop}>
-            <img src={Logo} className={styles.logo} alt=""/>
-          </LogoButton>
-          <Page>
-            <About />
-          </Page>
-          {/* <Page>
-            <Product
-              title='Brachiosaurus'
-              text='Most Iconic and initially thought to be one of the Largest Dinosaurs.'
-            />
-          </Page>
-          <Page>
-            <Product
-              title='Edmontosaurus'
-              text='Herbivore that could move on both Two Legs and Four. Flex.'
-            />
-          </Page>
-          <Page>
-            <Contact />
-          </Page> */}
-        </div>
+        <LogoButton onClick={this.scrollToTop}>
+          <img src={Logo} className={styles.logo} alt=""/>
+        </LogoButton>
+        <Page>
+          <About />
+        </Page>
+        <Page>
+          <Product
+            title='Brachiosaurus'
+            text='Most Iconic and initially thought to be one of the Largest Dinosaurs.'
+          />
+        </Page>
+        <Page>
+          <Product
+            title='Edmontosaurus'
+            text='Herbivore that could move on both Two Legs and Four. Flex.'
+          />
+        </Page>
+        <Page>
+          <Contact />
+        </Page>
       </Scrollbars>
     )
   }

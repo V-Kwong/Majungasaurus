@@ -1,9 +1,9 @@
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-}
+} */
 
 .logo {
   position: absolute;
@@ -14,7 +14,8 @@
 
 @media only screen and (max-width: 600px) {
   .logo {
-    width: 12vh;
-    margin: 0 2.5vw;
+    width: 10vh;
+    margin: 0 0 0 2.5vw;
+    padding: 0;
   }
 }
