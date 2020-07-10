@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './about.module.css';
 import Logo from '../images/black-dinosaur-logo-clip-art-png-clip-art.png';
+import { LogoButton } from '../components/logoButton';
 import { HoverButton } from '../components/hoverButton';
 
 
@@ -11,6 +12,13 @@ export default class About extends Component {
     this.state = {
       activeButton: 'Overview'
     }
+  }
+
+  scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
   }
 
   overviewClick = () => {
@@ -28,10 +36,10 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <div className={styles.buttonContainer}>
-          <a href="#home">
+        <div className={styles.buttonContainer} onClick={this.scrollToTop}>
+          <LogoButton>
             <img src={Logo} className={styles.logo} alt=""/>
-          </a>
+          </LogoButton>
         </div>
         <div className="container">
           <h1 className="title">Allosaurus</h1>
