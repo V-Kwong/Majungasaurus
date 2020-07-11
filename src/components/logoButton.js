@@ -8,6 +8,10 @@ export const LogoButton = styled.a`
   position: sticky;
   top: 0;
 
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
   &:hover {
     opacity: 0.75;
   }
