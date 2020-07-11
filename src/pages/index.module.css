@@ -1,10 +1,3 @@
-/* .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-} */
-
 .logo {
   position: absolute;
   z-index: 999;
@@ -15,7 +8,6 @@
 @media only screen and (max-width: 600px) {
   .logo {
     width: 10vh;
-    margin: 0 0 0 2.5vw;
-    padding: 0;
+    margin: 0.5vh 2.5vw;
   }
 }
