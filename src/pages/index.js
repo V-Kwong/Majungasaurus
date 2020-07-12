@@ -16,24 +16,18 @@ import { LogoButton } from '../components/logoButton';
 
 export default class IndexPage extends Component {
 
-  componentDidMount() {
-    window.addEventListener("scroll", this.scrollToTop); // remove brackets ()
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.scrollToTop);
-}
-
   scrollToTop = () => {
-    window.scrollTo({
+    const { scrollbars } = this.refs;
+    scrollbars.view.scroll({
       top: 0,
-      behavior: "smooth"
+      behavior: 'smooth',
     });
   }
 
   render() {
     return (
-      <Scrollbars 
+      <Scrollbars
+        ref='scrollbars'
         style={{ width: '100vw', height: '100vh' }}
       >
 
@@ -41,8 +35,8 @@ export default class IndexPage extends Component {
           <Main />
         </Page>
       
-        <LogoButton onClick={this.scrollToTop}>
-          <img src={Logo} className={styles.logo} alt=""/>
+        <LogoButton>
+          <img src={Logo} className={styles.logo} alt="" onClick={this.scrollToTop}/>
         </LogoButton>
         <Page>
           <About />
