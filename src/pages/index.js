@@ -44,7 +44,14 @@ export default class IndexPage extends Component {
         </Page>
 
         <div className={styles.overlay}>
-          © 2020 Majungasaurus. All rights reserved.
+          {/* <div class="social">
+            <a href="#" target="_blank"><span class="hb hb-xs hb-facebook-inv"><i class="fa fa-facebook"></i></span></a>
+            <a href="#" target="_blank"><span class="hb hb-xs hb-twitter-inv"><i class="fa fa-twitter"></i></span></a>
+            <a href="#" target="_blank"><span class="hb hb-xs hb-instragram-inv"><i class="fa fa-instagram"></i></span></a>
+          </div> */}
+          <div className={styles.copyright}>
+            <p> © 2020 Majungasaurus. All rights reserved.</p>
+          </div>
         </div>
 
         <Page>

@@ -2,8 +2,12 @@
   /* height: 100vh;
   width: 100vw;
   min-height: 640px; */
+  height: 10vh;
+  width: 100vw;
+  min-height: 64px;
 
   margin-top: -10vh;
+  margin-left: 2.5vw;
 
   z-index: 999;
 
@@ -12,7 +16,14 @@
   /* bottom: 0; */
   top: 90vh;
 
+  display: flex;
+  align-items: center;
+
   /* background-color: rgba(32, 65, 25, 0.7); */
+}
+
+.copyright {
+  font-size: 12px;
 }
 
 .logo {
