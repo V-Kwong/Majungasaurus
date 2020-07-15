@@ -38,9 +38,15 @@ export default class IndexPage extends Component {
         <LogoButton>
           <img src={Logo} className={styles.logo} alt="" onClick={this.scrollToTop}/>
         </LogoButton>
+
         <Page>
           <About />
         </Page>
+
+        <div className={styles.overlay}>
+          © 2020 Majungasaurus. All rights reserved.
+        </div>
+
         <Page>
           <Product
             title='Brachiosaurus'
