@@ -1,5 +1,8 @@
 import React, { Component } from "react"
 import { Scrollbars } from 'react-custom-scrollbars';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 // import { useStaticQuery, graphql } from "gatsby"
 // import Img from "gatsby-image"
 // import { Link } from "gatsby"
@@ -44,11 +47,14 @@ export default class IndexPage extends Component {
         </Page>
 
         <div className={styles.overlay}>
-          {/* <div class="social">
-            <a href="#" target="_blank"><span class="hb hb-xs hb-facebook-inv"><i class="fa fa-facebook"></i></span></a>
-            <a href="#" target="_blank"><span class="hb hb-xs hb-twitter-inv"><i class="fa fa-twitter"></i></span></a>
-            <a href="#" target="_blank"><span class="hb hb-xs hb-instragram-inv"><i class="fa fa-instagram"></i></span></a>
-          </div> */}
+          <div className={styles.social}>
+            <a href="#" target="_blank"><span className={styles.socialIcon}><FacebookIcon fontSize='small'/></span></a>
+            <a href="#" target="_blank"><span className={styles.socialIcon}><TwitterIcon fontSize='small'/></span></a>
+            <a href="#" target="_blank"><span className={styles.socialIcon}><InstagramIcon fontSize='small'/></span></a>
+            {/* <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_facebook_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_facebook].join(" ")}></i>gfd</span></a>
+            <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_twitter_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_twitter].join(" ")}></i>gfd</span></a>
+            <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_instragram_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_instagram].join(" ")}>ht</i></span></a> */}
+          </div>
           <div>
             <p className={styles.copyright}> © 2020 Majungasaurus. All rights reserved.</p>
           </div>
