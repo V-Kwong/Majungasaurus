@@ -22,21 +22,15 @@
   /* background-color: rgba(32, 65, 25, 0.7); */
 }
 
-/* .social {
-  margin: 1.5%;
-}
-
-.social a {
-  margin: 5px;
-  padding: 0;
-} */
-
 .social {
   margin-right: 1vw;
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  /* background-color: blue; */
 }
 
-.socialIcon {
+.socialIconCircle {
   height: 36px;
   width: 36px;
   margin: 0 5px;
@@ -44,9 +38,18 @@
   align-items: center;
   justify-content: center;
 
-  border: white 1px #212121;
-  border-radius: 30px;
+  border-radius: 50%;
   background-color: #212121;
+
+  transition: all .25s ease;
+}
+
+.socialIconCircle:hover {
+  background-color: #ffe001;
+}
+
+.socialIconCircle:hover .socialIcon {
+  fill: black;
 }
 
 .copyright {

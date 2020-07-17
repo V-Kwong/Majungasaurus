@@ -48,12 +48,33 @@ export default class IndexPage extends Component {
 
         <div className={styles.overlay}>
           <div className={styles.social}>
-            <a href="#" target="_blank"><span className={styles.socialIcon}><FacebookIcon fontSize='small'/></span></a>
-            <a href="#" target="_blank"><span className={styles.socialIcon}><TwitterIcon fontSize='small'/></span></a>
-            <a href="#" target="_blank"><span className={styles.socialIcon}><InstagramIcon fontSize='small'/></span></a>
-            {/* <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_facebook_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_facebook].join(" ")}></i>gfd</span></a>
-            <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_twitter_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_twitter].join(" ")}></i>gfd</span></a>
-            <a href="#" target="_blank"><span className={[hexagonStyles.hb, hexagonStyles.hb_xs, hexagonStyles.hb_instragram_inv].join(" ")}><i className={[hexagonStyles.fa, hexagonStyles.fa_instagram].join(" ")}>ht</i></span></a> */}
+            <a href="#" target="_blank">
+              <span className={styles.socialIconCircle}>
+                <FacebookIcon
+                  className={styles.socialIcon}
+                  fontSize='small'
+                  color='inherit'
+                />
+              </span>
+            </a>
+            <a href="#" target="_blank">
+              <span className={styles.socialIconCircle}>
+                <TwitterIcon
+                  className={styles.socialIcon}
+                  fontSize='small'
+                  color='inherit'
+                />
+              </span>
+            </a>
+            <a href="#" target="_blank">
+              <span className={styles.socialIconCircle}>
+                <InstagramIcon
+                  className={styles.socialIcon}
+                  fontSize='small'
+                  color='inherit'
+                />
+              </span>
+            </a>
           </div>
           <div>
             <p className={styles.copyright}> © 2020 Majungasaurus. All rights reserved.</p>
